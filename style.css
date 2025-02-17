@@ -1,0 +1,97 @@
+/* GLOBAL STYLES */
+body {
+    background-color: #F5F7FA;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* HEADER STYLING */
+h1 {
+    color: #2C3E50;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* SIDEBAR STYLING */
+.sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sidebar-radio label {
+    font-size: 18px;
+    margin: 5px 0;
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-radio label:hover {
+    background-color: #E8F5E9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* BUTTON STYLING */
+.stButton>button {
+    background-color: #3498DB;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1A5276;
+}
+
+/* IMAGE UPLOAD BOX */
+.upload-box {
+    border: 2px dashed #3498DB;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ECF0F1;
+}
+
+/* RESULTS BOX */
+.result-box {
+    background-color: #DFF0D8;
+    border: 2px solid #4CAF50;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* CONFIDENCE LEVELS */
+.confidence-box {
+    background-color: #FFF3CD;
+    border: 2px solid #FFA000;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
