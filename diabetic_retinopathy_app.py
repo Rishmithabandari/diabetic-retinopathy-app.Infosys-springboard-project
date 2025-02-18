@@ -187,9 +187,7 @@ elif page == "🔍 Diagnosis 🏥":
               # Display Results
                 st.success(f"**Prediction:** {predicted_class}")
                 st.info(f"**Severity Level:** {severity}")
-                st.write("### 📊 Confidence Levels:")
-                for label, prob in zip(CLASSES, probabilities[0]):
-                    st.write(f"**{label}:** {prob * 100:.2f}%")
+              
 
               # Footer
                 st.markdown("""
