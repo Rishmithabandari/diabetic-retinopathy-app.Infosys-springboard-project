@@ -8,7 +8,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Load Joblib Model
-MODEL_PATH = "models/model.pkl"
+MODEL_PATH = "model.pkl"
 if not os.path.exists(MODEL_PATH):
     st.error(f"❌ Model file not found: {MODEL_PATH}")
     st.stop()
