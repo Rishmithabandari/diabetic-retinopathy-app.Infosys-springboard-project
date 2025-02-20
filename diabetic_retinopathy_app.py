@@ -185,7 +185,7 @@ elif page == "🔍 Diagnosis 🏥":
                     severity = "⚠️ No Significant Signs of Diabetic Retinopathy"
 
               # Display Results
-                st.success(f"**Prediction:** {predicted_class}")
+                st.success(f"**Prediction:** Diabetic Retinopathy")
                 st.info(f"**Severity Level:** {severity}")
               
 
