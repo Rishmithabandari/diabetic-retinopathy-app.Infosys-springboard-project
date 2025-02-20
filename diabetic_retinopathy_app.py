@@ -193,6 +193,6 @@ elif page == "🔍 Diagnosis 🏥":
                 st.markdown("""
                   <hr style='border:1px solid gray'>
                   <center>
-                  © 2025 Infosys Project by Rishmitha. All rights reserved.
+                  © 2025 Project by Rishmitha. All rights reserved.
                   </center>
                 """, unsafe_allow_html=True)
