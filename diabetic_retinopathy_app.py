@@ -8,7 +8,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Load Joblib Model
-MODEL_PATH = "model.pkl"
+MODEL_PATH = "models/model.pkl"
 if not os.path.exists(MODEL_PATH):
     st.error(f"❌ Model file not found: {MODEL_PATH}")
     st.stop()
@@ -185,7 +185,7 @@ elif page == "🔍 Diagnosis 🏥":
                     severity = "⚠️ No Significant Signs of Diabetic Retinopathy"
 
               # Display Results
-                st.success(f"**Prediction:** Diabetic Retinopathy")
+                st.success(f"**Prediction:**Diabetic Retinopathy")
                 st.info(f"**Severity Level:** {severity}")
               
 
@@ -193,6 +193,6 @@ elif page == "🔍 Diagnosis 🏥":
                 st.markdown("""
                   <hr style='border:1px solid gray'>
                   <center>
-                  © 2025 Project by Rishmitha. All rights reserved.
+                  © 2025 Infosys Project by Rishmitha. All rights reserved.
                   </center>
                 """, unsafe_allow_html=True)
